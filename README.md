@@ -27,6 +27,7 @@ The picture below shows the default initialisation of a WebLoad project using Se
 ![SeleniumUsingChrome](https://github.com/tmvtmv/RadviewWebloadHeadlessChrome/blob/master/images/Webload_IDE-Chrome.jpg)
 
 The picture below shows a small change switching to headless-mode for Google Chrome:
+Just change Chrome to ChromeHeadless in the line driver=createDriver("Chrome") 
 ![SeleniumUsingChromeHeadless](https://github.com/tmvtmv/RadviewWebloadHeadlessChrome/blob/master/images/Webload_IDE-ChromeHeadless.jpg)
 
 # Supported versions of WebLoad
