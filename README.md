@@ -23,11 +23,13 @@ Or simply copy selenium.js from the files/ directory and replace the original fi
 # Usage
 After updating selenium.js it's easy to switch headless on/off.
 
+## Chrome Headless OFF
 The picture below shows the default initialisation of a WebLoad project using Selenium with Google Chrome:
 ![SeleniumUsingChrome](https://github.com/tmvtmv/RadviewWebloadHeadlessChrome/blob/master/images/Webload_IDE-Chrome.jpg)
 
+## Chrome Headless ON
+Just change Chrome to ChromeHeadless in the line driver=createDriver("Chrome").
 The picture below shows a small change switching to headless-mode for Google Chrome:
-Just change Chrome to ChromeHeadless in the line driver=createDriver("Chrome") 
 ![SeleniumUsingChromeHeadless](https://github.com/tmvtmv/RadviewWebloadHeadlessChrome/blob/master/images/Webload_IDE-ChromeHeadless.jpg)
 
 # Supported versions of WebLoad
